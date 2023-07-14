@@ -13,3 +13,5 @@ Create table user
 
 -- drop table user;
 
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'nhan';
+
